@@ -1,0 +1,7 @@
+# Turn off that annoying start up message
+startup_message off
+shell -$SHELL
+vbell off
+escape ``
+escape `e
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= %c"
